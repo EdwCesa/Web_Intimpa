@@ -1,0 +1,188 @@
+/* CSS Document */
+
+* {font-family:Noto Sans, sans-serif}
+ 
+header{
+	margin: 0px 0px;
+	top: 0;
+	width: 100%;
+}
+header img{
+	margin: 0px 0px;
+	vertical-align: top;
+}
+header div{
+	background-color: white;
+}
+
+#cfecha{
+	float: right;
+	color: black;
+	font-weight: bold;
+	padding: 10px 10px;
+	margin: 5px 5px 5px 5px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px gray;
+}
+
+nav{
+	width: 100%;
+	margin:5px auto;
+	background: darkgreen;
+	color: darkgreen;
+	border-radius: 20px;
+	
+}
+nav ul{
+	list-style: none;
+	margin: 0px auto;
+	position: relative;
+	
+}
+.menu li{
+	display: inline-block;
+	position: relative;
+}
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: orange;
+	transition: all 0.3s
+}
+
+.submenu{
+	position:absolute;
+	background-color: darkgreen;
+	display: none;
+	opacity: 0.8;
+	border-radius: 8px;
+}
+.submenu li a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+	display: block;
+}
+
+video{
+	width: 100%;
+}
+
+main{
+	display: flex;
+	margin: 5px 0px 5px 0px;background-color:#ffffff;
+}
+aside{
+	margin: 5px 5px 5px 0px;
+	display: flex;
+	flex-direction: column;
+}
+aside img{
+	width: 200px;
+	display: block;
+	margin: 30px auto 10px auto;
+	  -moz-box-shadow: inset 10px 10px 50px #fff;
+  -webkit-box-shadow: inset 10px 10px 50px #fff;
+  box-shadow: inset 10px 10px 50px #fff;
+}
+aside figcaption{
+	text-align: center;
+	margin: 0px auto 40px auto;
+    text-transform: uppercase; 
+	letter-spacing:2px;
+	text-shadow: 2px 2px 5px #545e57;
+}
+
+.aside2 figcaption{
+	text-align: center;
+	margin: 5px auto 20px auto;
+}
+
+aside figcaption a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+}
+
+section{
+	margin: 5px 0px 0px 5px;
+}
+section iframe{
+	margin: 25px 10px 10px 20px;
+	display: block;
+	width: 500px; 
+	height: 335px;
+	float: right;
+}
+
+section p{
+	text-align: justify;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 0px 45px 10px;
+}
+
+#pfinal{
+	font-weight: bolder;
+	font-size: 20pt;
+	text-align: center;
+	color: white;
+	letter-spacing:5px;
+}
+
+article video{
+	width: 80%;
+    margin:20px;
+	padding:5px;
+}
+footer {
+	background-color: darkgreen;	
+	color: white;
+}
+
+
+footer ul {
+	display:inline-block;
+	margin-left: 100px;
+}
+.link {
+	display:inline-block;
+}
+
+footer p a {
+	color: white;
+	text-decoration: none;	
+}
+
+footer ul a {
+	color: white;
+	text-decoration: none;
+}
+
+footer p {
+	text-align: center
+}
+
+.redes {
+	text-align: center;
+}
+
+footer div img{
+	width: 25px;
+	background-color: white;
+}
+
+footer .logofinal {
+	padding-left: 12px;
+	float: left;
+	width: 250px;
+	height: 120px;
+	opacity: 0.7;
+	border-radius: 15%;
+}
