@@ -88,9 +88,10 @@ aside img{
 	width: 200px;
 	display: block;
 	margin: 30px auto 10px auto;
-	  -moz-box-shadow: inset 10px 10px 50px #fff;
-  -webkit-box-shadow: inset 10px 10px 50px #fff;
-  box-shadow: inset 10px 10px 50px #fff;
+	-moz-box-shadow: inset 10px 10px 50px rgb(2, 2, 2);
+	-webkit-box-shadow: inset 10px 10px 50px rgb(0, 0, 0);
+	box-shadow: inset 10px 10px 50px rgb(2, 2, 2);
+	
 }
 aside figcaption{
 	text-align: center;
@@ -100,6 +101,10 @@ aside figcaption{
 	text-shadow: 2px 2px 5px #545e57;
 }
 
+a:hover{
+	color: gold;
+}
+
 .aside2 figcaption{
 	text-align: center;
 	margin: 5px auto 20px auto;
@@ -107,7 +112,7 @@ aside figcaption{
 
 aside figcaption a{
 	text-decoration: none;
-	color: white;
+	color: black;
 	font-weight: bolder;
 }
 
@@ -128,11 +133,17 @@ section p{
 	padding: 10px 0px 45px 10px;
 }
 
+section h1{
+	text-align:left;
+	margin: 0px;
+	padding: 0px;
+}
+
 #pfinal{
 	font-weight: bolder;
 	font-size: 20pt;
 	text-align: center;
-	color: white;
+	color: rgb(37, 241, 10);
 	letter-spacing:5px;
 }
 

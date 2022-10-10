@@ -36,11 +36,11 @@ $(document).ready(function(){
     $(this).attr("style","transform:rotateY(-360deg); transition: all 2s ease");
     });
 
-    $(".imgaside").mouseenter(function() {
+    $(".imgaside2").mouseenter(function() {
     $(this).attr("style","border: 3px solid gold");
     });
             
-    $(".imgaside").mouseleave(function() {
+    $(".imgaside2").mouseleave(function() {
     $(this).attr("style","border: 3px");
     });    
 
