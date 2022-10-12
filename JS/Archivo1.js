@@ -1,9 +1,4 @@
-function palabreoinicio(){
-    let cadena=document.getElementById("pfinal").innerText;
-    cadena=cadena.substring(1)+cadena.charAt(0);
-    document.getElementById("pfinal").innerText=cadena;
-    setTimeout("palabreoinicio()",1000);
- }
+
 
 function fecha(){
     let fecha=new Date();
@@ -26,7 +21,7 @@ $("#cfecha").text(innerHTML=diasemana + "," + dia + "/" + mes + "/" + anio);
 
 $(document).ready(function(){
     fecha();
-    palabreoinicio();
+    
 
     $(".imgformulario").mouseenter(function() {
     $(this).attr("style","transform:rotateY(360deg); transition: all 2s ease");

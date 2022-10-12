@@ -1,0 +1,191 @@
+/* CSS Document */
+* {font-family:Noto Sans, sans-serif}
+ 
+
+header{
+	margin: 0px 0px;
+	top: 0;
+	width: 100%;
+}
+header img{
+	margin: 0px 0px;
+	vertical-align: top;
+}
+header div{
+	background-color: white;
+}
+nav{
+	width: 100%;
+	margin:5px auto;
+	background: darkgreen;
+	color: darkgreen;
+	border-radius: 20px;
+	
+}
+nav ul{
+	list-style: none;
+	margin: 0px auto;
+	position: relative;
+}
+.menu li{
+	display: inline-block;
+	position: relative;
+}
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+	font-family: Arial;
+}
+.menu li a:hover{
+	color: orange;
+	transition: all 0.3s
+}
+.submenu{
+	position:absolute;
+	background-color: darkgreen;
+	display: none;
+	opacity: 0.8;
+	border-radius: 8px;
+}
+.submenu li a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+	display: block;
+}
+
+main{
+	margin: 5px auto;
+	background-color: white;
+}
+
+section{
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+}
+section .parrafo1 img{
+	
+	float:left;
+	margin: 10px;
+	padding: 0px;
+  -moz-box-shadow: inset 10px 10px 50px #fff;
+  -webkit-box-shadow: inset 10px 10px 50px #fff;
+  box-shadow: inset 10px 10px 50px #fff;
+}
+
+.parrafo1 img{
+	width: 400px;
+	height: 320px;
+}
+section .parrafo1 h1{
+	padding: 5px;
+	margin: 5px;
+	color: black;
+	font-size: 20pt;
+}
+section .parrafo1 p{
+	text-align: justify;
+	padding: 5px;
+	margin: 5px;
+	font-size: 13pt;
+}
+
+section .parrafo2{
+	background: goldenrod;
+	
+}
+section .parrafo2 video{
+	width: 60%;
+	float: left;
+	margin: 5px 5px 5px 10px;
+}
+
+section .parrafo2 p{
+	color: white;
+	font-size: 15pt;
+	padding: 50px 5px;
+	margin: 5px 10px;
+	background-color: black;
+	text-align: center;
+}
+
+section .parrafo3{
+	margin: 10px 0px;
+}
+section .parrafo3 h1{
+	text-shadow: 2px 2px red;
+	margin-left:50px;
+	padding: 10px;
+	color: #f5ff57;
+	font-size: 16pt;
+}
+
+section .parrafo3 img{
+	width: 50%;
+	margin: 20px;
+	padding: 10px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	float: right;
+	
+}
+
+section .parrafo3 p{
+	text-align: justify;
+	padding: 60px 10px 20px 0px;
+	font-size: 13pt;
+}
+
+footer {
+	background-color: darkgreen;	
+	color: white;
+}
+
+
+footer ul {
+	display:inline-block;
+	margin-left: 100px;
+}
+.link {
+	display:inline-block;
+}
+
+footer p a {
+	color: white;
+	text-decoration: none;	
+}
+
+footer ul a {
+	color: white;
+	text-decoration: none;
+}
+
+footer p {
+	text-align: center
+}
+
+.redes {
+	text-align: center;
+	
+}
+footer div img{
+	width: 25px;
+	background-color: white;
+}
+
+footer .logofinal {
+	padding-left: 12px;
+	float: left;
+	width: 250px;
+	height: 120px;
+	opacity: 0.7;
+	border-radius: 15%;
+}
+
+
+
+
