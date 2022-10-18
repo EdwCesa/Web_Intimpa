@@ -17,7 +17,7 @@ header div{
 nav{
 	width: 100%;
 	margin:5px auto;
-	background: darkgreen;
+	background: cadetblue;
 	color: darkgreen;
 	border-radius: 20px;
 	
@@ -44,7 +44,7 @@ nav ul{
 }
 .submenu{
 	position:absolute;
-	background-color: darkgreen;
+	background-color: cadetblue;
 	display: none;
 	opacity: 0.8;
 	border-radius: 8px;
@@ -80,7 +80,7 @@ section .parrafo1 img{
 section .parrafo1 h1{
 	padding: 5px;
     margin: 5px;
-	color: black;
+	color: green;
 	font-size: 20pt;
 }
 section .parrafo1 p{
@@ -142,6 +142,7 @@ section .parrafo3 p{
 	padding: 60px 10px 20px 0px;
 	font-size: 13pt;
 }
+
 
 footer {
 	background-color: darkgreen;	

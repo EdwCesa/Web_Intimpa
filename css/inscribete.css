@@ -1,0 +1,161 @@
+/* CSS Document */
+* {font-family:Noto Sans, sans-serif}
+ 
+
+header{
+	margin: 0px 0px;
+	top: 0;
+	width: 100%;
+}
+header img{
+	margin: 0px 0px;
+	vertical-align: top;
+}
+header div{
+	background-color: white;
+}
+nav{
+	width: 100%;
+	margin:5px auto;
+	background: cadetblue;
+	color: cadetblue;
+	border-radius: 20px;
+	
+}
+nav ul{
+	list-style: none;
+	margin: 0px auto;
+	position: relative;
+}
+.menu li{
+	display: inline-block;
+	position: relative;
+}
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+	font-family: Arial;
+}
+.menu li a:hover{
+	color: orange;
+	transition: all 0.3s
+}
+.submenu{
+	position:absolute;
+	background-color: darkgreen;
+	display: none;
+	opacity: 0.8;
+	border-radius: 8px;
+}
+.submenu li a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+	display: block;
+}
+
+
+/*----*/
+
+main{
+	margin: 10px;
+	display: flex;
+	flex-direction:row;
+}
+
+.texto{
+	margin-left: 20px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto h1{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+
+
+.caja1{
+	background-color: cadetblue;
+	width: 600px;
+	height: 600px;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+
+}
+
+.caja2{
+	width: 600px;
+	height: 600px;
+	float: left;
+	position: relative;
+	margin: 10px;
+}
+
+.form_img{
+	width: 600px;
+	height: 600px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+
+
+
+/*---*/
+footer {
+	background-color: darkgreen;	
+	color: white;
+}
+
+
+footer ul {
+	display:inline-block;
+	margin-left: 100px;
+}
+.link {
+	display:inline-block;
+}
+
+footer p a {
+	color: white;
+	text-decoration: none;	
+}
+
+footer ul a {
+	color: white;
+	text-decoration: none;
+}
+
+footer p {
+	text-align: center;
+	
+	
+}
+
+.redes {
+	text-align: center;
+	
+}
+footer div img{
+	width: 25px;
+	background-color: white;
+}
+
+footer .logofinal {
+	padding-left: 12px;
+	float: left;
+	width: 250px;
+	height: 120px;
+	opacity: 0.7;
+	border-radius: 15%;
+}
+
+

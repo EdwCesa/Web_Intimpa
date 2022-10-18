@@ -1,6 +1,4 @@
-/* CSS Document */
 * {font-family:Noto Sans, sans-serif}
- 
 
 header{
 	margin: 0px 0px;
@@ -60,95 +58,86 @@ nav ul{
 
 main{
 	margin: 5px auto;
-	background-color: white;
+	background-color:white;
 }
-
 section{
 	margin: 10px;
 	display: flex;
 	flex-direction: column;
 }
+
+div #extincion{
+	width: 800px;
+	height: 400px;
+}
+
 section .parrafo1 img{
-	
-	float:left;
+	float: right;
 	margin: 10px;
-	padding: 0px;
+	padding: 15px;
   -moz-box-shadow: inset 10px 10px 50px #fff;
   -webkit-box-shadow: inset 10px 10px 50px #fff;
   box-shadow: inset 10px 10px 50px #fff;
 }
-
-.parrafo1 img{
-	width: 400px;
-	height: 320px;
-}
 section .parrafo1 h1{
-	padding: 5px;
-	margin: 5px;
+	padding: 10px;
 	color: green;
-	font-size: 20pt;
+	font-size: 18pt;
+	text-align: center;
 }
 section .parrafo1 p{
 	text-align: justify;
-	padding: 5px;
-	margin: 5px;
+	padding: 20px;
 	font-size: 13pt;
 }
 
-section .parrafo2{
-	background: goldenrod;
-	
+h2{
+	color: green;
 }
-section .parrafo2 video{
-	width: 60%;
-	float: left;
-	margin: 5px 5px 5px 10px;
+ 
+section .parrafo2{ 
+	background: goldenrod;
 }
 
 section .parrafo2 p{
-	color: white;
-	font-size: 15pt;
-	padding: 50px 5px;
-	margin: 5px 10px;
+	text-align: justify;
+	padding: 20px;
+	font-size: 13pt;
 	background-color: black;
-	text-align: center;
+	color:white;
 }
-
-section .parrafo3{
-	margin: 10px 0px;
+section .parrafo2 video{
+	width: 40%;
+	float: left;
+	margin: 15px 15px 0px 15px;
+	padding: 1px 80px 15px;
 }
 section .parrafo3 h1{
-	text-shadow: 2px 2px red;
-	margin-left:50px;
-	padding: 10px;
-	color: #f5ff57;
+	margin-left:15px;
+	padding: 5px;
+	color: green;
 	font-size: 16pt;
 }
 
+section .parrafo3{
+	margin: 5px 0px;
+}
+
 section .parrafo3 img{
-	width: 50%;
+	width:30%;
 	margin: 20px;
 	padding: 10px;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 	float: right;
-	
-}
+}	
 
 section .parrafo3 p{
+	width:800px;
 	text-align: justify;
-	padding: 60px 10px 20px 0px;
-	font-size: 13pt;
+	padding:5px;
+	margin:10px;
+	font-size: 12pt;
 }
-
-.imagen_p3{
-	border-top-left-radius: 50% 50%;
-  border-top-right-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
-  border-bottom-left-radius: 50% 50%;
-}
-
-
-
 
 footer {
 	background-color: darkgreen;	
@@ -175,7 +164,7 @@ footer ul a {
 }
 
 footer p {
-	text-align: center
+	text-align: center;
 }
 
 .redes {
@@ -195,7 +184,3 @@ footer .logofinal {
 	opacity: 0.7;
 	border-radius: 15%;
 }
-
-
-
-

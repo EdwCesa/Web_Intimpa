@@ -17,7 +17,7 @@ header div{
 
 #cfecha{
 	float: right;
-	color: black;
+	color: green;
 	font-weight: bold;
 	padding: 10px 10px;
 	margin: 5px 5px 5px 5px;
@@ -28,7 +28,7 @@ header div{
 nav{
 	width: 100%;
 	margin:5px auto;
-	background: darkgreen;
+	background: cadetblue;
 	color: darkgreen;
 	border-radius: 20px;
 	
@@ -57,7 +57,7 @@ nav ul{
 
 .submenu{
 	position:absolute;
-	background-color: darkgreen;
+	background-color: cadetblue;
 	display: none;
 	opacity: 0.8;
 	border-radius: 8px;
@@ -87,7 +87,7 @@ aside{
 aside img{
 	width: 200px;
 	display: block;
-	margin: 30px auto 10px auto;
+	margin: 30px auto 40px auto;
 	-moz-box-shadow: inset 10px 10px 50px rgb(2, 2, 2);
 	-webkit-box-shadow: inset 10px 10px 50px rgb(0, 0, 0);
 	box-shadow: inset 10px 10px 50px rgb(2, 2, 2);
@@ -108,6 +108,15 @@ a:hover{
 .aside2 figcaption{
 	text-align: center;
 	margin: 5px auto 20px auto;
+}
+
+.imgaside{
+	margin-bottom: 90px;
+}
+
+.imgaside2{
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 aside figcaption a{
@@ -135,8 +144,12 @@ section p{
 
 section h1{
 	text-align:left;
-	margin: 0px;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
 	padding: 0px;
+	color: green;
 }
 
 #pfinal{

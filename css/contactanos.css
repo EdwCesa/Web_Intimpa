@@ -18,7 +18,7 @@ nav{
 	width: 100%;
 	margin:5px auto;
 	background: cadetblue;
-	color: darkgreen;
+	color: cadetblue;
 	border-radius: 20px;
 	
 }
@@ -58,97 +58,90 @@ nav ul{
 	display: block;
 }
 
-main{
-	margin: 5px auto;
-	background-color: white;
-}
-
-section{
+.main{
+    width: 100%;
 	margin: 10px;
-	display: flex;
-	flex-direction: column;
-}
-section .parrafo1 img{
-	
-	float:left;
-	margin: 10px;
-	padding: 0px;
-  -moz-box-shadow: inset 10px 10px 50px #fff;
-  -webkit-box-shadow: inset 10px 10px 50px #fff;
-  box-shadow: inset 10px 10px 50px #fff;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
-.parrafo1 img{
-	width: 400px;
-	height: 320px;
-}
-section .parrafo1 h1{
-	padding: 5px;
-	margin: 5px;
-	color: green;
-	font-size: 20pt;
-}
-section .parrafo1 p{
-	text-align: justify;
-	padding: 5px;
-	margin: 5px;
-	font-size: 13pt;
+main a{
+	margin-top: 20px;
 }
 
-section .parrafo2{
-	background: goldenrod;
-	
+/*---------------*/
+.seccion1{
+    margin-top: 60px;
+    width: 100%;
+    height: 520px;
+   	display: flex;
+	margin-top: 5PX;
+	margin-bottom: 5PX;
 }
-section .parrafo2 video{
-	width: 60%;
-	float: left;
-	margin: 5px 5px 5px 10px;
+.seccion1 iframe{
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
 }
 
-section .parrafo2 p{
-	color: white;
-	font-size: 15pt;
-	padding: 50px 5px;
-	margin: 5px 10px;
-	background-color: black;
+.ubicacion h1{
+	font-size: 20px;
+	font-family: 'arial';
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.celular{
+  	background-color: #383b41;
+	width: 97%;
+    height:450px;
+    margin: auto;
+    margin-top: 10px;
 	text-align: center;
+
 }
 
-section .parrafo3{
-	margin: 10px 0px;
-}
-section .parrafo3 h1{
-	text-shadow: 2px 2px red;
-	margin-left:50px;
-	padding: 10px;
-	color: #f5ff57;
-	font-size: 16pt;
-}
-
-section .parrafo3 img{
-	width: 50%;
-	margin: 20px;
-	padding: 10px;
-	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-	float: right;
-	
+.contacto h1{
+    font-size: 40px;
+    padding-top: 20px;
+	padding-left: 0px;
+	margin-bottom: 10px;
+    color: white;
+    width: 100%;
+    font-family: 'Goldman';
 }
 
-section .parrafo3 p{
-	text-align: justify;
-	padding: 60px 10px 20px 0px;
-	font-size: 13pt;
+.colo{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 16px;
+   color: goldenrod;
+   font-size: 40px;
 }
 
-.imagen_p3{
-	border-top-left-radius: 50% 50%;
-  border-top-right-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
-  border-bottom-left-radius: 50% 50%;
+.contacto p{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    padding-top: 5px;
+    font-family: 'Play', sans-serif;
+    font-size: 15px;
+    width: 70%;
+    text-align: center;
 }
 
+.contacto{
+    width: 58%;
+    height: 480px;
+    margin: auto;
+	margin-bottom: 10px;
+}
 
-
+/*---------------*/
 
 footer {
 	background-color: darkgreen;	
@@ -175,7 +168,9 @@ footer ul a {
 }
 
 footer p {
-	text-align: center
+	text-align: center;
+	
+	
 }
 
 .redes {
