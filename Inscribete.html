@@ -30,21 +30,37 @@
 			nuestra comunidad en favor de nuestro planeta.</p>
 		</div>
 		<main>
-		<div class="caja1">
-		<form name="form" action="registro.php" method="post">
+			<div class="group">
+				<form action="registro.php" method="POST">
+				<h2><em>Formulario de Registro</em></h2>
+				
+					<label for="dni">DNI<span><em>(requerido)</em></span></label>
+					<input type="text" name="dni" class="form-input" required/>
 
-            Nombres:<input type="text" name="nombres" required><p>
-            Apellidos:<input type="text" name="apellidos" required><p>
-            Edad:<input type="text" name="edad" required><p>
-            Fecha de nacimiento:<input type="text" name="nacimiento" required><p>
-            Sexo:<input type="text" name="sexo" required><p>     
-            Ciudad:<input type="text" name="ciudad" required><p>
-            Correo electronico:<input type="text" name="correo" required><p>
-            Telefono:<input type="text" name="telefono" required><p>
-                <input type="submit" value="Registrar">
-                <input type="reset" value="Borrar">
-        </form>
-		</div>
+					<label for="nombre">Nombres<span><em>(requerido)</em></span></label>
+					<input type="text" name="nombre" class="form-input" required/>   
+					
+					<label for="apellido">Apellidos<span><em>(requerido)</em></span></label>
+					<input type="text" name="apellido" class="form-input" required/>
+
+					<label for="edad">Edad<span><em>(requerido)</em></span></label>
+					<input type="text" name="edad" class="form-input" required/> 
+					
+					<label for="ciudad">Ciudad<span><em>(requerido)</em></span></label>
+					<input type="text" name="ciudad" class="form-input" required/> 
+					
+					<label for="email">Correo<span><em>(requerido)</em></span></label>
+					<input type="email" name="email" class="form-input" />
+
+					<label for="telefono">Telefono<span><em>(requerido)</em></span></label>
+					<input type="text" name="telefono" class="form-input" />
+				    
+					<input class="form-btn" name="submit" type="submit" value="Suscribirse" />
+					<input type="reset" value="Borrar">
+
+				  </p>
+				</form>
+			  </div>
 		
 		<div class="caja2">
 			<img  class="form_img" src="imagenes/voluntarios.jpg" alt="">
