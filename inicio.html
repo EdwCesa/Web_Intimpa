@@ -116,27 +116,22 @@
 				<img class="imgaside2" src="imagenes/Botellareciclada.jpg">
 			</aside>
 
+			<script>
+				window.watsonAssistantChatOptions = {
+				  integrationID: "42defa60-b7e6-43f3-9287-b93b1f86cae2", // The ID of this integration.
+				  region: "au-syd", // The region your integration is hosted in.
+				  serviceInstanceID: "fea5180a-1c89-4de8-81cb-a11d88e0cfc8", // The ID of your service instance.
+				  onLoad: function(instance) { instance.render(); }
+				};
+				setTimeout(function(){
+				  const t=document.createElement('script');
+				  t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+				  document.head.appendChild(t);
+				});
+			</script>
+
 		</main>
 		
-		<script>
-			window.addEventListener('mouseover', initLandbot, { once: true });
-			window.addEventListener('touchstart', initLandbot, { once: true });
-			var myLandbot;
-			function initLandbot() {
-			  if (!myLandbot) {
-				var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
-				s.addEventListener('load', function() {
-				  var myLandbot = new Landbot.Livechat({
-					configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1394556-3PWB1OAEWJ50077E/index.json',
-				  });
-				});
-				s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
-				var x = document.getElementsByTagName('script')[0];
-				x.parentNode.insertBefore(s, x);
-			  }
-			}
-		</script>
-
 		<footer>
 				
 			<p><a href="Inicio.html">Nosotros</a></p>
