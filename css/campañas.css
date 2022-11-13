@@ -117,6 +117,13 @@ section .parrafo2 h2{
 	
 }
 
+section .parrafo2 p{
+	text-align: center;
+	padding: 20px;
+	margin-top: 60px;
+	color:white;
+}
+
 section .parrafo2 video{
 	width: 35%;
 	float: right;

@@ -68,6 +68,13 @@ section{
 	display: flex;
 	flex-direction: column;
 }
+
+.imagen_p1{
+	width: 90%;
+	height: 500px;
+	margin: auto;
+}
+
 section .parrafo1 img{
 	
 	float:left;
@@ -141,7 +148,7 @@ section .parrafo3 p{
 }
 
 .imagen_p3{
-	border-top-left-radius: 50% 50%;
+  border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
