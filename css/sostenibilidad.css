@@ -84,7 +84,7 @@ section .parrafo1 h1{
 	font-size: 20pt;
 }
 section .parrafo1 p{
-	text-align: justify;
+	text-align: center;
 	padding: 5px;
     margin: 5px;
 	font-size: 13pt;
@@ -138,7 +138,7 @@ section .parrafo3 img{
 }
 
 section .parrafo3 p{
-	text-align: justify;
+	text-align: center;
 	padding: 60px 10px 20px 0px;
 	font-size: 13pt;
 }

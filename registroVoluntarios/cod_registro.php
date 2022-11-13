@@ -4,7 +4,7 @@ include("conexion.php")
 $v1 = $_POST['dni'];
 $v2 = $_POST['nombre'];
 $v3 = $_POST['apellido'];
-$v4= $_POST['edad'];
+$v4 = $_POST['edad'];
 $v5 = $_POST['ciudad'];
 $v6 = $_POST['email'];
 $v7 = $_POST['telefono'];
