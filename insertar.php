@@ -22,12 +22,7 @@
 				</li>
 			</ul>
 		</nav>
-		<div class="texto">
-			<h1>¡HAZTE VOLUNTARIO,</h1>
-			<h2>AYUDANOS AL CAMBIO!</h2>
-			<p>Voluntariado INTIMPA es un espacio donde todos podemos participar para generar el cambio de 
-			nuestra comunidad en favor de nuestro planeta.</p>
-		</div>
+		
 		<main>
 			<div class="group">
 				<form action="cod_registro.php" method="POST">
@@ -61,10 +56,7 @@
 				</form>
 			  </div>
 		
-		<div class="caja2">
-			<img  class="form_img" src="imagenes/voluntarios.jpg" alt="">
-		</div>
-
+		
 		</main>
         <footer>
 				
