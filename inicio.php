@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intimpa</title>
+<link href="css/inicio.css" rel="stylesheet" type="text/css">
+</head>
+	<body>
+	<div>
+		<header>
+			<div id="cfecha">Fecha</div>
+			<div><img src="imagenes/Logo Intilpa1.jpg"></div>
+			
+			
+		</header>
+		
+		<nav>
+			<ul class="menu">
+				<li><a href="Inicio.html">Nosotros</a></li>
+				<li><a href="#">Actualidad</a>
+					<ul class="submenu">
+						<li><a href="Sostenibilidad.html">Sostenibilidad</a></li>
+						<li><a href="Preservacion.html">Preservacion</a></li>
+						<li><a href="Reciclaje.html">Reduce, Reutiliza, Recicla</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Voluntariado</a>
+					<ul class="submenu">
+						<li><a href="Campañas.html">Campañas</a></li>
+						<li><a href="Inscribete.html">Inscribete</a></li>
+					</ul>
+				</li>
+				<li><a href="Contactanos.html">Contactanos</a>
+				</li>
+			</ul>
+		</nav>
+			
+			<main>
+				<aside class="aside1">
+				<article>
+						<figure>
+						<img class="imgaside" src="imagenes/Publicaciones.jpg">
+						<figcaption><a href="https://es.wikipedia.org/wiki/Etnobot%C3%A1nica" target="_blank">Publicaciones Destacadas</a></figcaption>
+						</figure>
+				</article>
+				
+				<article>
+					<figure>
+						<img class="imgaside" src="imagenes/Noticias.jpg">
+						<figcaption><a href="https://www.gob.pe/institucion/minam/noticias" target="_blank">Noticias</a></figcaption>
+					</figure>
+				</article>
+					
+				<article>
+					<figure>
+						<img class="imgaside" src="imagenes/APP intimpa.JPG">
+						<figcaption><a href="https://play.google.com/store/apps/topic?id=campaign_editorial_apps_si_environment_cep&hl=es_US&gl=US" target="_blank">Apps y Juegos</a></figcaption>
+					</figure>
+				</article>
+				<article>
+					<video class="imgaside" src="videos/cartel Intimpa.mp4" autoplay loop muted></video>
+				</article>
+				</aside>
+			<section>
+				<div class="ifra"><iframe src="https://www.youtube.com/embed/yAz1pTjDm_k" aling = "middle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>	
+				
+				<h1>Quienes Somos</h1>
+				<p>Proyecto Intimpa es una organización no gubernamental peruana sin ánimo de lucro cuya finalidad es la conservación 
+					de la biodiversidad del Perú.	Contribuimos a que el Perú reconozca la megadiversidad biológica y cultural 
+					como su principal riqueza y utilice este principio como guía de sus políticas de desarrollo. Sabemos que este 
+					trabajo no es individual por eso construimos alianzas estratégicas con actores sociales e instituciones.
+				<br><br>
+					Nuestro equipo está conformado por profesionales de distintas disciplinas, quienes en conjunto con los socios locales, 
+					desarrollan diversas acciones de conservación. En la actualidad, buscamos contribuir en el desarrollo de políticas 
+					ambientales nacionales.</p>
+				<br>
+				<div class="baner1">
+					<img src="imagenes/ecologia.jpg" width="100%" height="300px">
+					<div class="texto1">
+						<h2>Como organización velamos por el bienestar de nuestra comunidad</h2>	
+					</div>
+				</div>
+				<h1>Mision</h1>
+				<br>
+				<p>La misión de Intimpa es la de contribuir a la conservación y manejo sostenible de los recursos naturales y 
+					del medio ambiente desde la justicia y solidaridad, participando en la ejecución y administración de 
+					proyectos estratégicos de desarrollo ambiental en el ámbito local y nacional.</p>
+				<br>
+				<h1>Vision</h1>
+				<br>
+				<p>Intimpa quiere ser reconocida como una organización líder y consolidada en materia ambiental, comprometida con el 
+					mejoramiento de la calidad de vida de la población y el manejo sostenible de los recursos naturales, en un mundo 
+					donde los pueblos vivan en igualdad y dignidad y en armonía con la naturaleza.</p>
+				<br>
+				<div class="ifra"><iframe width="560" height="315" src="https://www.youtube.com/embed/gze7n7Eqhk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+				<br>
+				
+				<h1>El planeta te necesita</h1>
+				<br>
+				<p>Las soluciones a los problemas que afectan el  desarrollo sostenible  no debe limitarse únicamente a las  políticas, estrategias y estándares diseñados 
+					 y establecidas en las empresas. Aunque parezcan insignificantes, nuestras acciones individuales pueden contribuir 
+					 considerablemente   y de manera positiva en la sostenibilidad, es preciso nuestro compromiso y concientización para 
+					 lograr un desarrollo verdaderamente sostenible.</p>
+				<br>
+				
+			</section>
+			<aside class="aside2">
+				<figure>
+				<img class="imgformulario" src="imagenes/recicle.jpg">
+				<figcaption><a href="insertar.php" target="blank">¡Registrate aqui!</a></figcaption>
+				</figure>
+				<img class="imgaside2" src="imagenes/Reducir.jpg">
+				<img class="imgaside2" src="imagenes/Botellareciclada.jpg">
+			</aside>
+
+			<script>
+				window.watsonAssistantChatOptions = {
+				  integrationID: "42defa60-b7e6-43f3-9287-b93b1f86cae2", // The ID of this integration.
+				  region: "au-syd", // The region your integration is hosted in.
+				  serviceInstanceID: "fea5180a-1c89-4de8-81cb-a11d88e0cfc8", // The ID of your service instance.
+				  onLoad: function(instance) { instance.render(); }
+				};
+				setTimeout(function(){
+				  const t=document.createElement('script');
+				  t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+				  document.head.appendChild(t);
+				});
+			</script> 
+
+		</main>
+		
+		<footer>
+				
+			<p><a href="Inicio.html">Nosotros</a></p>
+				
+			<img class="logofinal" src="imagenes/logo Intimpa2.JPG">
+				
+			<div class="links">
+			
+				<ul style="list-style-type:none">
+				  	<li><a href="Sostenibilidad.html">Sostenibilidad</a></li>
+					<li><a href="Preservacion.html">Preservacion</a></li>
+					<li><a href="Reciclaje.html">Reduce, Reutiliza, Recicla</a></li>
+				</ul>
+			
+				<ul style="list-style-type:none">
+				  	<li><a href="Campañas.html">Campañas</a></li>	
+					<li><a href="Inscribete.html">Inscribete</a></li>
+					<li><a href="Contactanos.html">Contactanos</a></li>
+				</ul>
+			</div>		
+			
+			<p style="text-align:center">Copyright 2022 © IntimpaTM</p>
+			
+			<div class="redes" style="text-align: center, width 100%">
+				<a href="https://twitter.com" target="blank"><img src="imagenes/twitter.png"></a>
+				<a href="https://wwww.facebook.com" target="blank"><img src="imagenes/Facebook.jpeg"></a>
+				<a href="https://www.instagram.com/" target="blank"><img src="imagenes/instagram.png"></a>
+			</div>
+		</footer>
+		</div>
+		
+	</body>
+</html>
+<script src="JS/jquery-3.3.1.js"></script>
+<script src="JS/Archivo1.js"></script>
